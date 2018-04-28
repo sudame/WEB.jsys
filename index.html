@@ -6,10 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>web.jsys</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .hidden {
+            display: none;
+        }
+
+        .middle {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="app">
+    <div class="middle" id="loading">
+        <div class="lds-facebook">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div id="app" class="hidden">
         <section class="hero is-medium is-bold is-dark">
             <div class="hero-body">
                 <div class="container">
@@ -73,6 +92,6 @@
             </div>
         </div>
     </div>
-<script type="text/javascript" src="app.44ce212d8dd374fe0106.js"></script></body>
+<script type="text/javascript" src="app.b70a4e3386b874af9405.js"></script></body>
 
 </html>
